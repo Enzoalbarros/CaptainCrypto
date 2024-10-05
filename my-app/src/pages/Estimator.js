@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Information = () => {
+const Estimator = () => {
     return (
         <div>
-            <h1>Information Page</h1>
-            <p>This is the information page content.</p>
+            <h1>Estimator Page</h1>
+            <p>This is the Estimator page content.</p>
             <Link to="/">
                 <button className="btn">Back to Home</button>
             </Link>
@@ -14,4 +14,4 @@ const Information = () => {
     );
 };
 
-export default Information;
+export default Estimator;

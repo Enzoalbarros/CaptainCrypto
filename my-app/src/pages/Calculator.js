@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Information = () => {
+const Calculator = () => {
     return (
         <div>
-            <h1>Information Page</h1>
-            <p>This is the information page content.</p>
+            <h1>BRUUUUUUUH</h1>
             <Link to="/">
                 <button className="btn">Back to Home</button>
             </Link>
         </div>
+        
     );
 };
 
-export default Information;
+export default Calculator;
