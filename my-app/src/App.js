@@ -15,7 +15,6 @@ import Opportunities from './pages/Opportunities';
 import './pages/Estimator';
 import Estimator from './pages/Estimator';
 
-
 function App() {
   return (
     <div>
@@ -25,30 +24,37 @@ function App() {
             <Routes>
               {/* Route for the home page */}
               <Route path="/" element={
-                <div>
-                  <h1 className="text-5xl font-bold">The Crypto Captain</h1> 
-                  <ul>
+                <div className="flex items-center justify-center mt-8">
+                  <div className='text-center '>
+                  <h1 className="text-8xl font-bold mb-20">The Crypto Captain</h1>
+                  <img 
+                    src="/images/pirateLogo.webp"
+                    alt="logo" 
+                    className="mx-auto mb-8 w-48 h-48 object-cover rounded-full"
+                  />
+                  <ul className='text-4xl'>
                     <li>
                     <Link to="/information">
-                    <button className="btn">Go to Information</button>
+                    <button className="btn m-12 bg-gray-500">Go to Information</button>
                   </Link>
                     </li>
                     <li>
                     <Link to="/calculator">
-                    <button className="btn">Go to Calculator</button>
+                    <button className="btn m-12 bg-gray-500">Go to Calculator</button>
                   </Link>
                     </li>
                     <li>
                     <Link to="/opportunities">
-                    <button className="btn">Go to Opportunities</button>
+                    <button className="btn m-12 bg-gray-500">Go to Opportunities</button>
                   </Link>
                     </li>
                     <li>
                     <Link to="/estimator">
-                    <button className="btn">Go to Estimator</button>
+                    <button className="btn m-12 bg-gray-500">Go to Estimator</button>
                   </Link>
                     </li>
                   </ul>
+                  </div>
                 </div>
               } />
               
